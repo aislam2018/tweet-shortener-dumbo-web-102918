@@ -17,7 +17,7 @@ end
 def word_substituter(str)
 
   words = str.split(" ")
-  binding.pry
+
   words.map do |word|
 
    if dictionary.keys.include?(word)
