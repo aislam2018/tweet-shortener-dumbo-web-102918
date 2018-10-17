@@ -1,3 +1,4 @@
+require pry
 def dictionary 
   {
 "hello": "hi",
@@ -20,6 +21,7 @@ def word_substituter(str)
     dictionary.each do |key, val|
     if key == word
       new_words.push(val)
+      binding.pry
     else
       new_words.push(word)
     end
