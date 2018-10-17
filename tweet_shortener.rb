@@ -23,9 +23,10 @@ def word_substituter(str)
     else
       word = word
     end
+    words.join(" ")
   end
 
-  words.join(" ")
+  
 end
 
 def bulk_tweet_shortener(arr)
