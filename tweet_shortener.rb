@@ -18,13 +18,13 @@ def word_substituter(str)
 
   words = str.split(" ")
   words.map do |word|
-   if dictionary.key?(word)
+   if dictionary.key.includes?(word)
       word = dictionary[word]
     else
       word = word
     end
   end
-  binding.pry
+
   words.join(" ")
 end
 
