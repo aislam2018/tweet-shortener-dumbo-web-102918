@@ -15,13 +15,11 @@ def dictionary
 end
 
 def word_substituter(str)
-  new_words = []
+
   words = str.split(" ")
-  words.each do |word|
-    dictionary.each do |key, val|
-   
-    if key == word
-      new_words.push(val)
+  words.map do |word|
+   if dictionary.key?(word)
+      
     
     else
 
@@ -29,8 +27,6 @@ def word_substituter(str)
     end
     end
   end
-    
-  new_words.join(" ")
   
 end
 
