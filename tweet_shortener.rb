@@ -19,11 +19,12 @@ def word_substituter(str)
   words = str.split(" ")
   words.each do |word|
     dictionary.each do |key, val|
-      binding.pry
+   
     if key == word
       new_words.push(val)
-
+    
     else
+   binding.pry
       new_words.push(word)
     end
     end
