@@ -24,6 +24,7 @@ def word_substituter(str)
       word = word
     end
   end
+  binding.pry
   words.join(" ")
 end
 
