@@ -21,7 +21,7 @@ def word_substituter(str)
    if dictionary.key?(word)
       word = dictionary[word]
     else
-      word
+      word = word
     end
   end
   words.join(" ")
