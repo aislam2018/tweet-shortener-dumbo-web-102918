@@ -21,8 +21,9 @@ def word_substituter(str)
     dictionary.each do |key, val|
     if key == word
       new_words.push(val)
-      binding.pry
+
     else
+      binding.pry
       new_words.push(word)
     end
     end
