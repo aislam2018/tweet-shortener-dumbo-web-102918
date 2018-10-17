@@ -21,7 +21,7 @@ def word_substituter(str)
   words.map do |word|
 
    if dictionary.keys.include?(word)
-    binding.pry
+
       word = dictionary[word]
        
     else
