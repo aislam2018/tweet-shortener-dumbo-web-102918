@@ -23,6 +23,7 @@ def word_substituter(str)
    if dictionary.keys.include?(word)
     
       word = dictionary[word]
+       binding.pry
     else
       word = word
     end
