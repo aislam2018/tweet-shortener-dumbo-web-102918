@@ -22,9 +22,7 @@ def word_substituter(str)
       word = dictionary[word]
     else
       word = word
-    end
-    binding.pry
-    words.join(" ")
+    end.join(" ")
   end
 end
 
