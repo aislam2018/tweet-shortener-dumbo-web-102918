@@ -29,7 +29,7 @@ def word_substituter(str)
     end
     end
   end
-     binding.pry
+    
   new_words.join(" ")
   
 end
