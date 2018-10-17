@@ -24,12 +24,14 @@ def word_substituter(str)
       new_words.push(val)
     
     else
-   binding.pry
+
       new_words.push(word)
     end
     end
   end
+     binding.pry
   new_words.join(" ")
+  
 end
 def bulk_tweet_shortener(arr)
   arr.each do |tweet|
