@@ -20,7 +20,7 @@ def word_substituter(str)
 
   words.map do |word|
 
-   if dictionary.keys.include?(word.)
+   if dictionary.keys.include?(word.downcase)
 
       word = dictionary[word]
        
