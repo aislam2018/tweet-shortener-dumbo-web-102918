@@ -19,7 +19,7 @@ def word_substituter(str)
   words = str.split(" ")
   words.map do |word|
    if dictionary.key?(word)
-      dictionary[word]
+      word = dictionary[word]
     else
       word
     end
