@@ -22,7 +22,7 @@ def word_substituter(str)
 
    if dictionary.keys.include?(word.downcase)
 
-      word = dictionary[word]
+      word = dictionary[word.downcase]
        
     else
       word = word
