@@ -19,15 +19,11 @@ def word_substituter(str)
   words = str.split(" ")
   words.map do |word|
    if dictionary.key?(word)
-      
-    
+      dictionary[word]
     else
-
-      new_words.push(word)
-    end
+      word
     end
   end
-  
 end
 
 def bulk_tweet_shortener(arr)
